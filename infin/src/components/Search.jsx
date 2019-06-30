@@ -1,6 +1,19 @@
 import React from 'react';
-import axios from 'axios';
+import Form from './Form';
 
-export default class Search extends React.Component {
 
+class Search extends React.Component {
+  getHero = (e) => {
+    e.preventDefault();
+    console.log("working");
+  }
+  render() {
+
+    return (
+      <Form getHero={this.getHero} />
+    );
+  }
 }
+
+
+export default Search;

@@ -17,7 +17,7 @@ function App() {
         </div>
         <nav>
           <Link to="/">Home</Link>
-          <a href="/#hero-pics">Heroes</a>
+          <a href="/#pic-section">Heroes</a>
           <Link to="/search">
             <button>Search Hero</button>
           </Link>
