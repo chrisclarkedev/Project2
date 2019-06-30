@@ -1,37 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+@font-face{
+  font-family: 'Bangers', cursive;
+  src: url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+}
+
+body{
+  margin:0;
+background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4abff18f-4195-4949-92c3-5584509bb517/d22y32b-66f5f86a-6064-41e7-9093-99ea443ad12d.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzRhYmZmMThmLTQxOTUtNDk0OS05MmMzLTU1ODQ1MDliYjUxN1wvZDIyeTMyYi02NmY1Zjg2YS02MDY0LTQxZTctOTA5My05OWVhNDQzYWQxMmQuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.CtmPrx8o__raiAVfWvPVefAb8zUCsTF0tPH1ufBH9KI");
+}
+
+/* logo section */
+
+
+
+/* speech bubble section */
+p.speech {
+position:absolute;
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  line-height: 300px;
+  background-color: #fff;
+  border: 8px solid #666;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 100px;
+  -webkit-box-shadow: 2px 2px 4px #888;
+  -moz-box-shadow: 2px 2px 4px #888;
+  box-shadow: 2px 2px 4px #888;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  left:55%;
+  font-family: 'Bangers' , cursive;
+ font-size: 28px;
+}
+
+p.speech:after {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 38px;
+  top: 100px;
+  border: 15px solid #666;
+  border-color: #fff transparent transparent #fff;
+}
+
+/* ThanosSection */
+#thanos-section {
+  display: flex;
+  height: 475px;
+}
+#thanos-image {
+  width: 68%;
+  text-align: right;
+  padding-top: 100px;
+  image-rendering: crisp-edges;
+}
+#thanos-image img {
+  height: 150%;
+  display: flexbox;
+  padding-top: 50px;
+  image-rendering: crisp-edges;
+}
+
+/* nav bar Section */
+
+nav{
+  padding-bottom: 100px;
+}
+
 .App{
   text-align: center;
-
-}
-.App h1{
-  color:white;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

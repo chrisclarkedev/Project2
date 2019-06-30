@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("https://www.wamc.org/sites/wamc/files/styles/x_large/public/201703/BigdipISS.jpg")
+  /* background-image: url("https://www.wamc.org/sites/wamc/files/styles/x_large/public/201703/BigdipISS.jpg") */
 }
 
 code {
