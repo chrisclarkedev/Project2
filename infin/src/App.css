@@ -15,6 +15,13 @@ img#logo {
   width: 600px;
 }
 
+/* nav bar Section */
+
+nav{
+  padding-bottom: 35px;
+}
+
+
 /* speech bubble section */
 p.speech {
 position:absolute;
@@ -68,12 +75,28 @@ p.speech:after {
   image-rendering: crisp-edges;
 }
 
-/* nav bar Section */
 
-nav{
-  padding-bottom: 35px;
+/* PicSection */
+#pic-section h2{
+  color: white;
+  text-align: center;
+  padding-top: 300px;
 }
 
+#hero-gallery {
+  display: grid;
+  grid-template-rows: 350px 350px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px 10px;
+
+}
+
+#hero-gallery img {
+  object-fit: cover;
+  height: 350px;
+  width: 100%;
+  background-color: white;
+}
 .App{
   text-align: center;
 }
