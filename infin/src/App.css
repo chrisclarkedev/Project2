@@ -11,7 +11,9 @@ background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f
 
 /* logo section */
 
-
+img#logo {
+  width: 600px;
+}
 
 /* speech bubble section */
 p.speech {
@@ -69,7 +71,7 @@ p.speech:after {
 /* nav bar Section */
 
 nav{
-  padding-bottom: 100px;
+  padding-bottom: 35px;
 }
 
 .App{
