@@ -87,15 +87,18 @@ p.speech:after {
   display: grid;
   grid-template-rows: 350px 350px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 10px 10px;
+  grid-gap: 12px 12px;
 
 }
 
 #hero-gallery img {
   object-fit: cover;
   height: 350px;
-  width: 88%;
-  background-color: white;
+  width: 100%;
+  background-color: black;
+    border: 15px solid #ffda07;
+   padding: 10px;
+   border-radius: 75%;
 }
 .App{
   text-align: center;

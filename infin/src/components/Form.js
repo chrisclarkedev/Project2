@@ -1,11 +1,12 @@
 import React from 'react';
 
-const Form = props => (
-  <form onSubmit={props.getHero}>
-    <input type="text" />
-    <button>Search</button>
-  </form>
+const Form = (props) => {
+  return (
+    <form onSubmit={props.getHero}>
+      <input style={{ margin: "20px auto", display: "block" }} type="text" name="charName" />
+      <button>Submit</button>
+    </form>
 
-);
-
+  );
+}
 export default Form;
