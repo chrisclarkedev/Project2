@@ -6,7 +6,7 @@ import PicSection from './PicSection';
 export default function Home() {
   return (
     <>
-      <p class="speech">COME AND GET ME!</p>
+      <p className="speech">COME AND GET ME!</p>
       <ThanosSection />
       <PicSection />
 
