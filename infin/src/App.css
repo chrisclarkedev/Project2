@@ -60,6 +60,10 @@ nav li{
 .nav_links li:hover{
   color: white;
 }
+
+.nav_links a{
+  text-decoration: none;
+}
 /* nav button section */
 nav button{
   -moz-box-shadow: 0px 1px 0px 0px #fff6af;
