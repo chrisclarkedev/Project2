@@ -4,13 +4,18 @@ import axios from 'axios';
 const apiKey = '10214393741373662';
 
 
+
 class Search extends React.Component {
   constructor() {
     super();
     this.state = {
       name: '',
-      image: '',
       realName: '',
+      image: '',
+      height: '',
+      weight: '',
+      appearance: '',
+      group: '',
     }
   }
   getHero = async (e) => {
@@ -19,14 +24,23 @@ class Search extends React.Component {
     await axios.get(`https://cors-anywhere.herokuapp.com/https://superheroapi.com/api/${apiKey}/search/${charName}`)
       .then((res) => {
         // console.log(res.data.results["0"].name);
-        const name = res.data.results["0"].name;
-        const image = res.data.results["0"].image;
-        const realName = res.data.results["0"].biography["full-name"];
+        const name = res.data.results["0"].name; //characters name
+        const realName = res.data.results["0"].biography["full-name"]; //characters real name
+        const image = res.data.results["0"].image; //characters image
+        const height = res.data.results["0"].appearance.height["0"];//characters height
+        const weight = res.data.results["0"].appearance.weight["0"];
+        const appearance = res.data.results["0"].biography["first-appearance"];
+        const group = res.data.results["0"].connections["group-affiliation"];
+        // console.log(group);
 
         // console.log(name);
-        this.setState({ name: name })
         this.setState({ image: image.url })
-        this.setState({ nickName: realName })
+        this.setState({ name: name })
+        this.setState({ realName: realName })
+        this.setState({ height: height })
+        this.setState({ weight: weight })
+        this.setState({ appearance: appearance })
+        this.setState({ group: group })
       }).catch(err => {
 
       })
@@ -38,15 +52,17 @@ class Search extends React.Component {
     return (
       <div>
         <Form getHero={this.getHero} />
-        <section id="cardsection">
-          <div className="charname">
-            <p>Name:    {this.state.name}
-              <br></br>
-              Real Name:    {this.state.nickName}</p>
+        <br></br>
+        <div class="card">
+          <div class="upper">
             <img src={this.state.image} />
           </div>
-
-        </section>
+          <h2>{this.state.name}</h2>
+          <h3>Real Name: {this.state.realName}</h3>
+          <h4>Height: {this.state.height} &nbsp;  &nbsp; &nbsp;Weight: {this.state.weight}</h4>
+          <h5>First Apperance: {this.state.appearance}</h5>
+          <h6>Group Affiliaion: {this.state.group}</h6>
+        </div>
       </div>
     );
   }

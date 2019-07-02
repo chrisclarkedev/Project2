@@ -16,7 +16,7 @@ function App() {
 
         </div>
         <nav>
-          <ul class="nav_links">
+          <ul className="nav_links">
             <li><Link to="/">Home</Link></li>
             <li><a href="/#pic-section">Heroes</a></li>
             <li><Link to="/search">
