@@ -3,7 +3,9 @@
   font-family: 'Bangers', cursive;
   src: url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
 }
-
+header{
+  padding: 30px 10%;
+}
 body{
   margin:0 auto;
   padding:0;
@@ -21,15 +23,84 @@ body{
 /* logo section */
 
 img#logo {
-  width: 650px;
+  width: 800px;
 }
 
 /* nav bar Section */
-
 nav{
-  /* padding-bottom: 35px; */
+  background-color:rgb(133, 180, 238);
+  display: flex;
+  text-decoration: none;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px white;
+}
+nav li{
+  display: inline-flexbox;
+  font-family:'Bangers' , cursive;
+  font-size: 32px;
+  font-weight: 500;
+  color: whitesmoke;
+  text-decoration: none; 
+}
+.nav_links li{
+  list-style: none;
+  text-align: center;
+
 }
 
+.nav_links li{
+  display:inline-block;
+  padding: 0px 140px;
+}
+.nav_links li{
+  transition: all 0.3s easte 0s;
+}
+
+.nav_links li:hover{
+  color: white;
+}
+/* nav button section */
+nav button{
+  -moz-box-shadow: 0px 1px 0px 0px #fff6af;
+	-webkit-box-shadow: 0px 1px 0px 0px #fff6af;
+	box-shadow: 0px 1px 0px 0px #fff6af;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffec64), color-stop(1, #ffab23));
+	background:-moz-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-webkit-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-o-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-ms-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23',GradientType=0);
+	background-color:#ffec64;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #12100e;
+	display:inline-block;
+	cursor:pointer;
+	color:royalblue;
+	font-family: 'Bangers' , cursive;
+	font-size:32px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+}
+nav button:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffab23), color-stop(1, #ffec64));
+	background:-moz-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-webkit-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-o-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-ms-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffab23', endColorstr='#ffec64',GradientType=0);
+	background-color:#ffab23;
+}
+nav button:active {
+	position:relative;
+	top:1px;
+}
 
 /* speech bubble section */
 p.speech {
@@ -53,7 +124,6 @@ position:absolute;
   left:52%;
   font-family: 'Bangers' , cursive;
  font-size: 28px;
-
 }
 
 p.speech:after {
@@ -111,7 +181,7 @@ p.speech:after {
   display: grid;
   grid-template-rows: 350px 350px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 12px 12px;
+  grid-gap: 25px 25px;
 
 }
 
