@@ -8,9 +8,10 @@ const Form = (props) => {
 
   return (
     <div className="form-search">
+      <p>Search your favorite hero!</p>
       <form onSubmit={props.getHero}>
-        <input style={{ margin: "20px auto", display: "block" }} type="text" name="charName" />
-        <button onClick={showCard}>Submit</button>
+        <input type="text" name="charName" placeholder="Search Hero" />
+        <button onClick={showCard}>Search</button>
       </form>
     </div>
   );

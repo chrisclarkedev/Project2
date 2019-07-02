@@ -5,12 +5,10 @@ export default function ThanosSection() {
   return (
     <section id="pic-section">
       <div id="narrcomic">
-        <h2>The fated Heroes sent to stop Thanos "The Mad Titan" from destroying half of all life in the universe!</h2>
-
+        <h2>The fated Heroes sent to stop "The Mad Titan" Thanos from destroying half of all life in the universe!</h2>
       </div>
       <br></br>
       <div id="hero-gallery">
-
         <img src="https://www.superherodb.com/pictures2/portraits/10/100/274.jpg" alt="capt-amer" />
         <img src="https://www.superherodb.com/pictures2/portraits/10/100/140.jpg" alt="thor" />
         <img src="https://www.superherodb.com/pictures2/portraits/10/100/133.jpg" alt="spdr-man" />
