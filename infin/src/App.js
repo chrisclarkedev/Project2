@@ -8,27 +8,30 @@ import Search from './components/Search';
 function App() {
   return (
     <div className="App">
-      <header>
-        <div>
-          <Link to="/">
-            <img id="logo" src="http://oi68.tinypic.com/2hsahbm.jpg" alt="inflogo" />
-          </Link>
+      <body>
+        <header>
+          <div>
+            <Link to="/">
+              <img id="logo" src="http://oi68.tinypic.com/2hsahbm.jpg" alt="inflogo" />
+            </Link>
 
-        </div>
-        <nav>
-          <Link to="/">Home</Link>
-          <a href="/#pic-section">Heroes</a>
-          <Link to="/search">
-            <button>Search Hero</button>
-          </Link>
-        </nav>
+          </div>
+          <nav>
+            <Link to="/">Home</Link>
+            <a href="/#pic-section">Heroes</a>
+            <Link to="/search">
+              <button>Search Hero</button>
+            </Link>
+          </nav>
 
-      </header>
-      <main>
-        <Route path="/" exact render={() => <Home />} />
-        <Route path="/search" render={() => <Search />} />
-      </main>
+        </header>
+        <main>
+          <Route path="/" exact render={() => <Home />} />
+          <Route path="/search" render={() => <Search />} />
+        </main>
+      </body>
     </div>
+
   );
 }
 

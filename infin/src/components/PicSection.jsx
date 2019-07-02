@@ -4,7 +4,11 @@ import React from 'react';
 export default function ThanosSection() {
   return (
     <section id="pic-section">
-      <h2>These are the fated Heroes sent to stop Thanos "The Mad Titan" from destroying half the life in the universe!</h2>
+      <div id="narrcomic">
+        <h2>The fated Heroes sent to stop Thanos "The Mad Titan" from destroying half of all life in the universe!</h2>
+
+      </div>
+      <br></br>
       <div id="hero-gallery">
 
         <img src="https://www.superherodb.com/pictures2/portraits/10/100/274.jpg" alt="capt-amer" />

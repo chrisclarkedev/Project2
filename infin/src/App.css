@@ -6,19 +6,28 @@
 
 body{
   margin:0 auto;
-background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4abff18f-4195-4949-92c3-5584509bb517/d22y32b-66f5f86a-6064-41e7-9093-99ea443ad12d.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzRhYmZmMThmLTQxOTUtNDk0OS05MmMzLTU1ODQ1MDliYjUxN1wvZDIyeTMyYi02NmY1Zjg2YS02MDY0LTQxZTctOTA5My05OWVhNDQzYWQxMmQuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.CtmPrx8o__raiAVfWvPVefAb8zUCsTF0tPH1ufBH9KI");
+  padding:0;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4abff18f-4195-4949-92c3-5584509bb517/d22y32b-66f5f86a-6064-41e7-9093-99ea443ad12d.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzRhYmZmMThmLTQxOTUtNDk0OS05MmMzLTU1ODQ1MDliYjUxN1wvZDIyeTMyYi02NmY1Zjg2YS02MDY0LTQxZTctOTA5My05OWVhNDQzYWQxMmQuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.CtmPrx8o__raiAVfWvPVefAb8zUCsTF0tPH1ufBH9KI");
+  font-family: 'Bangers' , cursive;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* logo section */
 
 img#logo {
-  width: 600px;
+  width: 650px;
 }
 
 /* nav bar Section */
 
 nav{
-  padding-bottom: 35px;
+  /* padding-bottom: 35px; */
 }
 
 
@@ -41,9 +50,10 @@ position:absolute;
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  left:55%;
+  left:52%;
   font-family: 'Bangers' , cursive;
  font-size: 28px;
+
 }
 
 p.speech:after {
@@ -60,10 +70,11 @@ p.speech:after {
 /* ThanosSection */
 #thanos-section {
   display: flex;
-  height: 475px;
+  height: 600px;
+   /* height: 475px;originally  */
 }
 #thanos-image {
-  width: 68%;
+  width: 70%;
   text-align: right;
   padding-top: 100px;
   image-rendering: crisp-edges;
@@ -71,16 +82,29 @@ p.speech:after {
 #thanos-image img {
   height: 150%;
   display: flexbox;
-  padding-top: 50px;
+  padding-bottom: 50px;
   image-rendering: crisp-edges;
 }
 
 
 /* PicSection */
 #pic-section h2{
-  color: white;
+  color: black;
   text-align: center;
-  padding-top: 300px;
+  font: 'Bangers' , cursive;
+  font-size: 36px;
+  text-align: center;
+}
+
+#narrcomic{
+  background-color: #ffda07;
+  font: 'Bangers' , cursive;
+  position: relative;
+  padding: 1.5px;
+  color: black;
+  border-radius: 5%;
+  border:10px solid black;
+
 }
 
 #hero-gallery {
@@ -100,8 +124,6 @@ p.speech:after {
    padding: 10px;
    border-radius: 75%;
 }
-
-
 
 
 .App{

@@ -10,8 +10,7 @@ class Search extends React.Component {
     this.state = {
       name: '',
       image: '',
-      nickName: '',
-      pwrStats: [],
+      realName: '',
     }
   }
   getHero = async (e) => {
@@ -22,13 +21,12 @@ class Search extends React.Component {
         // console.log(res.data.results["0"].name);
         const name = res.data.results["0"].name;
         const image = res.data.results["0"].image;
-        const nickName = res.data.results["0"].biography["full-name"];
-        const pwrStats = res.data.results["0"].powerstats;
+        const realName = res.data.results["0"].biography["full-name"];
+
         // console.log(name);
         this.setState({ name: name })
         this.setState({ image: image.url })
-        this.setState({ nickName: nickName })
-        this.setState({ pwrStats: pwrStats.arr })
+        this.setState({ nickName: realName })
       }).catch(err => {
 
       })
@@ -40,12 +38,15 @@ class Search extends React.Component {
     return (
       <div>
         <Form getHero={this.getHero} />
-        <div className="charname">
-          <p>Name:{this.state.name}</p>
-        </div>
-        <img src={this.state.image} />
-        <p>{this.state.nickName}</p>
-        <p>{this.state.pwrStats}</p>
+        <section id="cardsection">
+          <div className="charname">
+            <p>Name:    {this.state.name}
+              <br></br>
+              Real Name:    {this.state.nickName}</p>
+            <img src={this.state.image} />
+          </div>
+
+        </section>
       </div>
     );
   }
