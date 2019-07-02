@@ -202,6 +202,14 @@ p.speech:after {
 
 /* search page */
 
+.result-card {
+  display:none;
+}
+
+.show-result-card {
+  display: block;
+}
+
 .card{
   background-color:whitesmoke;
   height:550px;
@@ -240,7 +248,7 @@ p.speech:after {
   top:50px;
   font-size: 16px;
 }
-/* Groups */
+/* First Appearance */
 .card h5{
   color:black;
   text-align: center;
@@ -248,6 +256,7 @@ p.speech:after {
   top: 25px;
   font-size: 16px;
 }
+/* Groups */
 .card h6{
   color:black;
   text-align: center;
@@ -279,7 +288,10 @@ p.speech:after {
   outline: none;
   }
 
-
+/* Form button and input */
+#form input{
+  left: 300px;
+}
 
 .App{
   text-align: center;

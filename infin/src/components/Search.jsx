@@ -53,8 +53,8 @@ class Search extends React.Component {
       <div>
         <Form getHero={this.getHero} />
         <br></br>
-        <div class="card">
-          <div class="upper">
+        <div className="card result-card">
+          <div className="upper">
             <img src={this.state.image} />
           </div>
           <h2>{this.state.name}</h2>
