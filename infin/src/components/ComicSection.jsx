@@ -40,6 +40,24 @@ export default function ComicSection() {
           </div>
         </div>
       </div>
+      <div class="box2">
+        <div class="imgBx">
+          <img src={require('./images/img5.jpg')} />
+          <div class="content">
+            <h4>Infinity Gauntlet Vol 1 #5</h4>
+            <p>Galactus! The Celestials! The Stranger! Master Order and Lord Chaos! The all-powerful entities of the universe have united to stand against Thanos -- and they don't stand a chance! Can the remnants of Earth's heroes succeed where the gods have failed? And the captive Nebula has her eyes on that Gauntlet...</p>
+          </div>
+        </div>
+      </div>
+      <div class="box2">
+        <div class="imgBx">
+          <img src={require('./images/img6.jpg')} />
+          <div class="content">
+            <h4>Infinity Gauntlet Vol 1 #6</h4>
+            <p>Nebula has the Infinity Gauntlet -- and, in the most shocking twist yet, Thanos now stands with Earth's heroes to defeat her! Can one being possibly contain all that power? And if not Thanos, then who? With a shock ending that'll leave you begging for more!</p>
+          </div>
+        </div>
+      </div>
 
     </div>
   )
