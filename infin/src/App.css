@@ -336,6 +336,8 @@ p.speech:after {
   box-sizing: border-box;
   border:6px solid white;
   display: flexbox;
+  margin-right:20px;
+  margin-left:20px;
 }
 
 #trilogy-info{
@@ -404,6 +406,8 @@ p.speech:after {
   height: 400px;
   background: #000;
   box-shadow: 0 30px 30px rgba(0,0,0, .5);
+  margin-right:20px;
+  margin-left:20px;
 }
 .box .imgBx{
   position: absolute;
