@@ -1,6 +1,5 @@
 import React from 'react';
-
-
+import ComicSection from './ComicSection';
 
 export default function Trilogy() {
   return (
@@ -14,9 +13,9 @@ export default function Trilogy() {
         <p>All of Marvel's top heroes star in this cosmic epic, where they must stop the Infinity-fueled "Mad Titan"
           Thanos, Magus (Adam Warlock's evil counterpart), and the Goddess (Adam Warlock's 'benevolent' coutnerpart)
           - all of whom have been infused with near-omnipotent power thans to the Infinity Gems!</p>
-
+        <h3>Infinity Gauntlet</h3>
+        <ComicSection />
       </div>
-
     </section >
   )
 };

@@ -87,7 +87,7 @@ nav button{
 	font-family: 'Bangers' , cursive;
 	font-size:32px;
 	font-weight:bold;
-	padding:6px 24px;
+	padding:6px 20px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #ffee66;
 }
@@ -342,7 +342,7 @@ p.speech:after {
   background-color: white;
   width: 100%;
   margin: 0;
-  height: 700px;
+  height: 1200px;
   position:absolute;
   text-align: center;
   color: black;
@@ -355,7 +355,7 @@ p.speech:after {
   text-align: center;
   margin: 0;
   position: relative;
-  top:6px;
+  padding-top:22px;
 }
 
 #trilogy-info h2{
@@ -378,6 +378,94 @@ p.speech:after {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   margin: 15px;
+}
+
+#trilogy-info h3{
+  padding-top: 50px;
+  line-height: 0;
+  color: black;
+  font-size: 50px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+/* Comic images */
+.container{
+  width: 100%;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+
+}
+.box{
+  position: relative;
+  width: 300px;
+  height: 400px;
+  background: #000;
+  box-shadow: 0 30px 30px rgba(0,0,0, .5);
+}
+.box .imgBx{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width:100%;
+  height: 100%;
+}
+
+.box .imgBx img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width:100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.5s;
+}
+
+.box:hover .imgBx img{
+  opacity: 0;
+}
+
+.box .content{
+  position: absolute;
+  bottom: 20px;
+  left:10%;
+  width: 80%;
+  height: 60px;
+  background: #fff;
+  transition:0.5s;
+  overflow: hidden;
+
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.box:hover .content{
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+.box .content h4{
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+.box .content p{
+  margin: 10px 0 0;
+  padding: 0;
+  opacity: 0;
+  line-height: 1.2em;
+  transition: 0.5s;
+  text-align: justify;
+}
+
+.box:hover .content p{
+opacity:1;
+transition-delay:0.5s;
 }
 .App{
   text-align: center;
