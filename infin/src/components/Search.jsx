@@ -23,17 +23,14 @@ class Search extends React.Component {
     const charName = e.target.elements.charName.value;
     await axios.get(`https://cors-anywhere.herokuapp.com/https://superheroapi.com/api/${apiKey}/search/${charName}`)
       .then((res) => {
-        // console.log(res.data.results["0"].name);
-        const name = res.data.results["0"].name; //characters name
-        const realName = res.data.results["0"].biography["full-name"]; //characters real name
-        const image = res.data.results["0"].image; //characters image
-        const height = res.data.results["0"].appearance.height["0"];//characters height
+        const name = res.data.results["0"].name;
+        const realName = res.data.results["0"].biography["full-name"];
+        const image = res.data.results["0"].image;
+        const height = res.data.results["0"].appearance.height["0"];
         const weight = res.data.results["0"].appearance.weight["0"];
         const appearance = res.data.results["0"].biography["first-appearance"];
         const group = res.data.results["0"].connections["group-affiliation"];
-        // console.log(group);
 
-        // console.log(name);
         this.setState({ image: image.url })
         this.setState({ name: name })
         this.setState({ realName: realName })
