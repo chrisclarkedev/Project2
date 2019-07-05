@@ -334,7 +334,7 @@ p.speech:after {
   width:75%;
   height:auto;
   box-sizing: border-box;
-  border:6px solid white;
+  border:6px solid whitesmoke;
   display: flexbox;
   margin-right:20px;
   margin-left:20px;

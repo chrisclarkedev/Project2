@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 export default function ComicSection() {
   return (
+    // Created box animation with help from youtube video and site https://www.youtube.com/watch?v=9pXGz6Dv3q0
     <div class="container">
       <div class="box">
         <div class="imgBx">
