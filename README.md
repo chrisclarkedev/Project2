@@ -37,7 +37,7 @@ Easily navigated.
 **Supported Libraries**
 
 * Server-Side
-  -API
+  -API (SuperHeroAPI)
 
 * Client-Side
   - axios
