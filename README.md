@@ -1,4 +1,4 @@
-# Infinity Gauntlet (Thanos Quest) 
+# (Project 2) Infinity Gauntlet Saga
 
 ![picture alt](https://i.ibb.co/ZB2XVk9/logo-hd.png)
 
