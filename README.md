@@ -58,7 +58,7 @@ App.js        | High          | 2 Hours         | 4 Hours 25 mins|
 Home          | High          | 1 Hour          | 2 Hours 40 mins|
 ThanosSection | High          | 1 Hour          | 35 mins        |
 PicSection    | High          | 1 Hour          | 1 Hour  10 mins|
-Trilogy       | High          | 3 Hour          | 3 Hours 15     |
+Trilogy       | High          | 3 Hour          | 3 Hours 15 mins|
 Search        | High          | 1 Hour 30 min   | 3 Hours        |
 Form          | High          | 1 Hour          | 1 Hour         |
 Styling (CSS) | High          | (N/A)           | 13 Hours       |
