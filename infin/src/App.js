@@ -12,7 +12,7 @@ function App() {
       <header>
         <div>
           <Link to="/">
-            <img id="logo" src="http://oi68.tinypic.com/2hsahbm.jpg" alt="inflogo" />
+            <img id="logo" src="https://i.ibb.co/ZB2XVk9/logo-hd.png" alt="inflogo" />
           </Link>
 
         </div>
@@ -20,11 +20,8 @@ function App() {
           <ul className="nav_links">
             <li><Link to="/">Home</Link></li>
             <li><a href="/#pic-section">Heroes</a></li>
-            <li><Link to="/trilogy">Trilogy
-            </Link></li>
-            <li><Link to="/search">
-              <button>Search Hero</button>
-            </Link></li>
+            <li><Link to="/trilogy">Trilogy</Link></li>
+            <li><Link to="/search"><button>Search Hero</button></Link></li>
           </ul>
         </nav>
 
