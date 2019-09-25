@@ -1,37 +1,61 @@
-# Project2
+# Infinity Gauntlet (Thanos Quest) 
 
-Name: Infinity Gauntlet (Thanos Quest) 
+![picture alt](https://i.ibb.co/ZB2XVk9/logo-hd.png)
 
-
-
-
-
---User Info--
-
-Upon loading page user is able to interact with varying elements. Clicking on picture of the character
-will bring up a popup modal. This popup modal will bring up that specific character portrait with
-the different information in it.
--Picture
--Name
--Powerstats
--Biography
+Click [here](http://minor-grass.surge.sh/) for a live demo!
 
 
-
-API being used either Marvel API (have key but haven't tested) or SuperHero API (tested).
-Through these API's I will get Marvel comics character data (ID,Name,Powerstats,Biography and Image)
-- Use a comic font.
-- Space background image.
-- Home page will have navbar and comic book logo at the top "The Infinity Gauntlet". 
-- Brief description of the story etc.
-- Body will include a few characters from the original comic book who fought Thanos.
-  (even number of characters popular ones)
-- Each character will have a small portrait a few pixels or larger.
-- Click event with portrait showing (Name,Powerstats,Biography and Image) fetched from api.
-- 2nd page showing each infinity gem (stone) and a brief description of what they do.
-- Pointer icon infinity gauntlet
+## Description ###
+Web app that chronicles Marvel Comics greatest cosmic storyline "The Infinity Gauntlet".The home page displays all the characters set to fight Thanos the Mad Titan and stop him from taking over the universe. The "Trilogy" page displays the comic series in its entirety and gives a brief synopsis of the storyline. "Hero Seach" uses to "SuperHeroAPI" that allows the user to search their favorite Marvel Super-Hero or Villain and display their (Name, Height, Weight, First Appearance & Group Affiliation).
 
 
+**Expected Challenges** 
+
+*Structuring the different components and placing them in the right places.
+
+*Cycling through the "Super Hero API" and its various endpoints to grab the specific information that I want.
+
+*Creating a well thought out search feature that will point to specific endpoints in the API.
+
+
+&nbsp;
+&nbsp;
+&nbsp;
+
+### Features-List ###
+
+Application that chronicles the infinity gauntlet saga.
+
+Display the characters that are in opostion to Thanos The Mad Titan.
+
+Make an application that fits the motif of a comic book to engage the user. 
+(Colorful, Comic-Fonts, Comic Speech Bubbles, Images of characters.)
+
+Easily navigated.
+
+
+**Supported Libraries**
+
+* Server-Side
+  -API
+
+* Client-Side
+  - axios
+  - react
+  - react-router-dom
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
+**Component Timeframe**
+
+Component     | Priority      | Estimated Time  |  Actual Time  |
+------------- | ------------- |---------------  |-------------  |
+Home          | High          | 40 Mins         | 55 Mins       |
+Search        | High          | 1 Hour          | 1 Hour        |
 
 
 Extra if possible
