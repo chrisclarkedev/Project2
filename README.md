@@ -1,4 +1,4 @@
-# (Project 2) Infinity Gauntlet Saga
+# Project 2 - Infinity Gauntlet Saga
 
 ![picture alt](https://i.ibb.co/ZB2XVk9/logo-hd.png)
 
@@ -54,12 +54,19 @@ Easily navigated.
 
 Component     | Priority      | Estimated Time  |  Actual Time  |
 ------------- | ------------- |---------------  |-------------  |
-Home          | High          | 40 Mins         | 55 Mins       |
-Search        | High          | 1 Hour          | 1 Hour        |
+App.js        | High          | 2 Hours         | 4 Hours 25 min|
+Home          | High          | 1 Hour          | 2 Hours 40 min|
+ThanosSection | High          | 1 Hour          | 35 mins       |
+PicSection    | High          | 1 Hour          | 1 Hour  10 min|
+Trilogy       | High          | 3 Hour          | 3 Hours 15    |
+Search        | High          | 1 Hour 30 min   | 3 Hours       |
+Form          | High          | 1 Hour          | 1 Hour        |
+Styling (CSS) | High          | (N/A)           | 13 Hours      |
+ 
 
+**Extra if possible**
 
-Extra if possible
-- **Bottom of page will have slideshow of all the comics in the Infinity Gauntlet saga.**
+**Bottom of page will have slideshow of all the comics in the Infinity Gauntlet saga.**
 - Snap click event that will erase 1/2 of the characters in the body with some type of vanish css animation.
  "Thanos wants to impress Mistress Death by eliminating 1/2 of all life in the universe!"
 - Sound effect for the snap
