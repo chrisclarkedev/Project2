@@ -52,16 +52,16 @@ Easily navigated.
 
 **Component Timeframe**
 
-Component     | Priority      | Estimated Time  |  Actual Time  |
-------------- | ------------- |---------------  |-------------  |
-App.js        | High          | 2 Hours         | 4 Hours 25 min|
-Home          | High          | 1 Hour          | 2 Hours 40 min|
-ThanosSection | High          | 1 Hour          | 35 mins       |
-PicSection    | High          | 1 Hour          | 1 Hour  10 min|
-Trilogy       | High          | 3 Hour          | 3 Hours 15    |
-Search        | High          | 1 Hour 30 min   | 3 Hours       |
-Form          | High          | 1 Hour          | 1 Hour        |
-Styling (CSS) | High          | (N/A)           | 13 Hours      |
+Component     | Priority      | Estimated Time  |  Actual Time   |
+------------- | ------------- |---------------  |--------------- |
+App.js        | High          | 2 Hours         | 4 Hours 25 mins|
+Home          | High          | 1 Hour          | 2 Hours 40 mins|
+ThanosSection | High          | 1 Hour          | 35 mins        |
+PicSection    | High          | 1 Hour          | 1 Hour  10 mins|
+Trilogy       | High          | 3 Hour          | 3 Hours 15     |
+Search        | High          | 1 Hour 30 min   | 3 Hours        |
+Form          | High          | 1 Hour          | 1 Hour         |
+Styling (CSS) | High          | (N/A)           | 13 Hours       |
  
 
 **Extra if possible**
