@@ -1,7 +1,6 @@
 import React from 'react';
 import Form from './Form';
 import axios from 'axios';
-const apiKey = '10214393741373662';
 
 class Search extends React.Component {
   constructor() {
@@ -24,7 +23,9 @@ class Search extends React.Component {
     //     `https://cors-anywhere.herokuapp.com/https://superheroapi.com/api/${apiKey}/search/${charName}`
     //   )
     await axios
-      .get(`https://superheroapi.com/api.php/${apiKey}/search/${charName}`)
+      .get(
+        `https://superheroapi.com/api.php/${process.env.REACT_APP_SECRET_KEY}/search/${charName}`
+      )
       .then((res) => {
         const name = res.data.results['0'].name;
         const realName = res.data.results['0'].biography['full-name'];
