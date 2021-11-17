@@ -2,7 +2,6 @@ import React from 'react';
 import ThanosSection from './ThanosSection';
 import PicSection from './PicSection';
 
-
 export default function Home() {
   return (
     <>
@@ -23,7 +22,6 @@ export default function Home() {
       <br></br>
       <br></br>
       <PicSection />
-
     </>
-  )
+  );
 }

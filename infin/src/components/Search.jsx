@@ -48,23 +48,28 @@ class Search extends React.Component {
 
   render() {
     return (
-      <div>
-        <Form getHero={this.getHero} />
-        <br></br>
-        <div className="card result-card">
-          <div className="upper">
-            <img src={this.state.image} />
+      <>
+        <div>
+          <Form getHero={this.getHero} />
+          <br></br>
+          <div className="card result-card">
+            <div className="upper">
+              <img src={this.state.image} />
+            </div>
+            <h2>{this.state.name}</h2>
+            <h3>Real Name: {this.state.realName}</h3>
+            <h4>
+              Height: {this.state.height} &nbsp; &nbsp; &nbsp;Weight:{' '}
+              {this.state.weight}
+            </h4>
+            <h5>First Apperance: {this.state.appearance}</h5>
+            <h6>Group Affiliaion: {this.state.group}</h6>
           </div>
-          <h2>{this.state.name}</h2>
-          <h3>Real Name: {this.state.realName}</h3>
-          <h4>
-            Height: {this.state.height} &nbsp; &nbsp; &nbsp;Weight:{' '}
-            {this.state.weight}
-          </h4>
-          <h5>First Apperance: {this.state.appearance}</h5>
-          <h6>Group Affiliaion: {this.state.group}</h6>
         </div>
-      </div>
+        <br></br>
+        <br></br>
+        <br></br>
+      </>
     );
   }
 }
