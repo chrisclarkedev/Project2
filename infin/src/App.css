@@ -35,7 +35,7 @@ nav {
   background-color: rgb(133, 180, 238);
   display: flex;
   text-decoration: none;
-  border: 1px solid;
+  /* border: 1px solid; */
   padding: 10px;
   box-shadow: 5px 10px white;
 }
@@ -55,11 +55,12 @@ nav li {
 
 .nav_links li {
   display: inline-block;
+  align-items: space-between;
   padding: 0px 80px;
 }
 .nav_links li {
   transition: all 0.3s easte 0s;
-  padding: 0px 80px;
+  /* padding: 0px 80px; */
   flex-wrap: nowrap;
 }
 
