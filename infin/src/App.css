@@ -1,16 +1,35 @@
+/* APP 2021 CHANGES */
 .App {
   text-align: center;
+  font-family: 'Bangers', cursive;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
-@font-face {
-  font-family: 'Bangers', cursive;
-  src: url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
-}
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+/* HEADER CHANGES 2021*/
 header {
-  padding: 30px 10%;
+  min-height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+  font-family: 'Bangers', cursive;
 }
+
+/* header {
+  padding: 30px 10%;
+} */
+
+/* BODY CHANGES 2021 */
+
 body {
+  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4abff18f-4195-4949-92c3-5584509bb517/d22y32b-66f5f86a-6064-41e7-9093-99ea443ad12d.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzRhYmZmMThmLTQxOTUtNDk0OS05MmMzLTU1ODQ1MDliYjUxN1wvZDIyeTMyYi02NmY1Zjg2YS02MDY0LTQxZTctOTA5My05OWVhNDQzYWQxMmQuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.CtmPrx8o__raiAVfWvPVefAb8zUCsTF0tPH1ufBH9KI');
+  width: 100vw;
+  height: 100vh;
+  width: 100%;
+}
+
+/* body {
   margin: 0 auto;
   padding: 0;
   text-align: center;
@@ -22,20 +41,78 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
+} */
 
 /* logo section */
-
+/* LOGO CHANGES 2021 */
 img#logo {
-  width: 800px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-/* nav bar redone */
-/* nav bar Section */
+/* img#logo {
+  width: 800px;
+} */
+
+/* NAVBAR CHANGES 2021 */
+nav {
+  display: flex;
+  cursor: pointer;
+  margin: 0 auto;
+  text-align: center;
+}
+
+nav ul {
+  margin: 0 auto;
+  text-align: center;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  list-style-type: none;
+  margin: 0 auto;
+  /* padding: 0px 75px; */
+}
+
+nav ul li a {
+  text-decoration: none;
+  text-transform: lowercase;
+  font-family: 'Bangers', cursive;
+  padding: 0px 60px;
+  font-size: 3rem;
+  align-items: space-between;
+  z-index: auto;
+  /* position: fixed; */
+}
+
+nav ul li a:hover {
+  color: WHITE;
+}
+
+/* COMIC BORDER */
+
 nav {
   background-color: rgb(133, 180, 238);
   display: flex;
   text-decoration: none;
-  /* border: 1px solid; */
+  padding: 10px;
+  box-shadow: 5px 10px white;
+}
+
+nav .hero {
+  background-color: rgb(241, 120, 21);
+  border-radius: 100%/100%;
+}
+
+/* NEW SEARCH BUTTON */
+
+/* nav bar redone */
+/* nav bar Section */
+/* nav {
+  background-color: rgb(133, 180, 238);
+  display: flex;
+  text-decoration: none;
   padding: 10px;
   box-shadow: 5px 10px white;
 }
@@ -60,7 +137,6 @@ nav li {
 }
 .nav_links li {
   transition: all 0.3s easte 0s;
-  /* padding: 0px 80px; */
   flex-wrap: nowrap;
 }
 
@@ -70,9 +146,9 @@ nav li {
 
 .nav_links a {
   text-decoration: none;
-}
+} */
 /* nav button section */
-nav button {
+/* nav button {
   -moz-box-shadow: 0px 1px 0px 0px #fff6af;
   -webkit-box-shadow: 0px 1px 0px 0px #fff6af;
   box-shadow: 0px 1px 0px 0px #fff6af;
@@ -123,11 +199,12 @@ nav button:hover {
 nav button:active {
   position: relative;
   top: 1px;
-}
+} */
 
-/* speech bubble section */
+/* SPEECH BUBBLE CHANGES 2021 */
 p.speech {
-  position: absolute;
+  top: 58px;
+  position: relative;
   width: 200px;
   height: 100px;
   text-align: center;
@@ -155,16 +232,58 @@ p.speech:after {
   width: 0;
   height: 0;
   left: 38px;
-  top: 100px;
+  top: 80px;
   border: 15px solid #666;
   border-color: #fff transparent transparent #fff;
 }
+/* speech bubble section */
+/* p.speech {
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  line-height: 300px;
+  background-color: #fff;
+  border: 8px solid #666;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 100px;
+  -webkit-box-shadow: 2px 2px 4px #888;
+  -moz-box-shadow: 2px 2px 4px #888;
+  box-shadow: 2px 2px 4px #888;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  left: 52%;
+  font-family: 'Bangers', cursive;
+  font-size: 28px;
+} */
+
+/* p.speech:after {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 38px;
+  top: 100px;
+  border: 15px solid #666;
+  border-color: #fff transparent transparent #fff;
+} */
+
+/* THANOS SECTION CHANGES 2021 */
+#thanos-section img {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  height: 875px;
+  margin-top: 40px;
+}
 
 /* ThanosSection */
-#thanos-section {
+/* #thanos-section {
   display: flex;
   height: 600px;
-  /* height: 475px;originally  */
 }
 #thanos-image {
   width: 70%;
@@ -177,16 +296,24 @@ p.speech:after {
   display: flexbox;
   padding-bottom: 50px;
   image-rendering: crisp-edges;
-}
+} */
 
-/* PicSection */
+/* PIC SECTION CHANGES 2021  */
 #pic-section h2 {
+  color: black;
+  text-align: center;
+  font-size: 38px;
+  text-align: center;
+  font-family: 'Bangers', cursive;
+}
+/* PicSection */
+/* #pic-section h2 {
   color: black;
   text-align: center;
   font: 'Bangers', cursive;
   font-size: 36px;
   text-align: center;
-}
+} */
 
 #narrcomic {
   background-color: #ffda07;
@@ -559,3 +686,6 @@ p.speech:after {
   opacity: 1;
   transition-delay: 0.5s;
 }
+
+/* --------------------------- MEDIA QUERY 2021 ------- */
+/* HOME PAGE */
