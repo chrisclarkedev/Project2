@@ -4,42 +4,39 @@
 
 Click [here](http://minor-grass.surge.sh/) for a live demo!
 
+## Description
 
-## Description ###
 Web app that chronicles Marvel Comics greatest cosmic storyline "The Infinity Gauntlet".The home page displays all the characters set to fight Thanos the Mad Titan and stop him from taking over the universe. The "Trilogy" page displays the comic series in its entirety and gives a brief synopsis of the storyline. "Hero Seach" uses to "SuperHeroAPI" that allows the user to search their favorite Marvel Super-Hero or Villain and display their (Name, Height, Weight, First Appearance & Group Affiliation).
 
+**Expected Challenges**
 
-**Expected Challenges** 
+\*Structuring the different components and placing them in the right places.
 
-*Structuring the different components and placing them in the right places.
+\*Cycling through the "Super Hero API" and its various endpoints to grab the specific information that I want.
 
-*Cycling through the "Super Hero API" and its various endpoints to grab the specific information that I want.
-
-*Creating a well thought out search feature that will point to specific endpoints in the API.
-
+\*Creating a well thought out search feature that will point to specific endpoints in the API.
 
 &nbsp;
 &nbsp;
 &nbsp;
 
-### Features-List ###
+### Features-List
 
 Application that chronicles the infinity gauntlet saga.
 
 Display the characters that are in opostion to Thanos The Mad Titan.
 
-Make an application that fits the motif of a comic book to engage the user. 
+Make an application that fits the motif of a comic book to engage the user.
 (Colorful, Comic-Fonts, Comic Speech Bubbles, Images of characters.)
 
 Easily navigated.
 
-
 **Supported Libraries**
 
-* Server-Side
+- Server-Side
   -API (SuperHeroAPI)
 
-* Client-Side
+- Client-Side
   - axios
   - react
   - react-router-dom
@@ -52,24 +49,22 @@ Easily navigated.
 
 **Component Timeframe**
 
-Component     | Priority      | Estimated Time  |  Actual Time   |
-------------- | ------------- |---------------  |--------------- |
-App.js        | High          | 2 Hours         | 4 Hours 25 mins|
-Home          | High          | 1 Hour          | 2 Hours 40 mins|
-ThanosSection | High          | 1 Hour          | 35 mins        |
-PicSection    | High          | 1 Hour          | 1 Hour  10 mins|
-Trilogy       | High          | 3 Hour          | 3 Hours 15 mins|
-Search        | High          | 1 Hour 30 min   | 3 Hours        |
-Form          | High          | 1 Hour          | 1 Hour         |
-Styling (CSS) | High          | (N/A)           | 13 Hours       |
- 
+| Component     | Completion |
+| ------------- | ---------- |
+| App.js        | Completed  |
+| Home          | Completed  |
+| ThanosSection | Completed  |
+| PicSection    | Completed  |
+| Trilogy       | Completed  |
+| Search        | Completed  |
+| Form          | Completed  |
+| Styling (CSS) | Completed  |
 
 **Extra if possible**
 
 **Bottom of page will have slideshow of all the comics in the Infinity Gauntlet saga.**
+
 - Snap click event that will erase 1/2 of the characters in the body with some type of vanish css animation.
- "Thanos wants to impress Mistress Death by eliminating 1/2 of all life in the universe!"
+  "Thanos wants to impress Mistress Death by eliminating 1/2 of all life in the universe!"
 - Sound effect for the snap
 - Hero Search Bar 3rd page which will show (Name,Powerstats,Biography and Image)
-
-
