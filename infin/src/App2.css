@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+.App {
+  text-align: center;
+  font-family: 'Bangers', cursive;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* HEADER CHANGES 2021*/
+header {
+  min-height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+  font-family: 'Bangers', cursive;
+}
+
+/* BODY CHANGES 2021 */
+body {
+  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4abff18f-4195-4949-92c3-5584509bb517/d22y32b-66f5f86a-6064-41e7-9093-99ea443ad12d.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzRhYmZmMThmLTQxOTUtNDk0OS05MmMzLTU1ODQ1MDliYjUxN1wvZDIyeTMyYi02NmY1Zjg2YS02MDY0LTQxZTctOTA5My05OWVhNDQzYWQxMmQuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.CtmPrx8o__raiAVfWvPVefAb8zUCsTF0tPH1ufBH9KI');
+  width: 100vw;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* LOGO CHANGES 2021 */
+header .logo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+/* NAVBAR CHANGES 2021 */
+nav {
+  display: flex;
+  cursor: pointer;
+  margin: 0 auto;
+  text-align: center;
+}
+
+nav ul {
+  margin: 0 auto;
+  text-align: center;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  list-style-type: none;
+  margin: 0 auto;
+  /* padding: 0px 75px; */
+}
+
+nav ul li a {
+  text-decoration: none;
+  text-transform: lowercase;
+  font-family: 'Bangers', cursive;
+  padding: 0px 60px;
+  font-size: 3rem;
+  align-items: space-between;
+  z-index: auto;
+  color: black;
+  /* position: fixed; */
+}
+
+nav ul li a:hover {
+  color: WHITE;
+}
+
+/* COMIC BORDER */
+nav {
+  background-color: rgb(133, 180, 238);
+  display: flex;
+  text-decoration: none;
+  padding: 10px;
+  box-shadow: 5px 10px white;
+}
+
+nav .hero {
+  background-color: rgb(241, 120, 21);
+  border-radius: 100%/100%;
+}
+
+/* SPEECH BUBBLE CHANGES 2021 */
+p.speech {
+  top: 80px;
+  position: relative;
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  line-height: 300px;
+  background-color: #fff;
+  border: 8px solid #666;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 100px;
+  -webkit-box-shadow: 2px 2px 4px #888;
+  -moz-box-shadow: 2px 2px 4px #888;
+  box-shadow: 2px 2px 4px #888;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  left: 52%;
+  font-family: 'Bangers', cursive;
+  font-size: 28px;
+}
+
+p.speech:after {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 38px;
+  top: 80px;
+  border: 15px solid #666;
+  border-color: #fff transparent transparent #fff;
+}
+
+/* THANOS SECTION CHANGES 2021 */
+.thanos-section img {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  height: 875px;
+  margin-top: 40px;
+}
+
+/* PIC SECTION CHANGES 2021  */
+#pic-section h2 {
+  color: black;
+  text-align: center;
+  font-size: 38px;
+  text-align: center;
+  font-family: 'Bangers', cursive;
+}
+
+#narrcomic {
+  background-color: #ffda07;
+  font: 'Bangers', cursive;
+  position: relative;
+  padding: 1.5px;
+  color: black;
+  border-radius: 5%;
+  border: 10px solid black;
+}
+
+#hero-gallery {
+  display: grid;
+  grid-template-rows: 350px 350px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 25px 25px;
+}
+
+#hero-gallery img {
+  object-fit: cover;
+  height: 350px;
+  width: 100%;
+  background-color: black;
+  border: 15px solid #ffda07;
+  padding: 10px;
+  border-radius: 75%;
+}
+
+/* TRILOGY PAGE CHANGES 2021 */
+#trilogy-img img {
+  margin-top: 30px;
+  width: 90%;
+  height: auto;
+  box-sizing: border-box;
+  border: 6px solid whitesmoke;
+  display: flexbox;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -3px;
+}
+
+#trilogy-info {
+  background-color: white;
+  width: 100%;
+  margin-top: 200px;
+  margin: 0;
+  height: 160vh;
+  position: absolute;
+  text-align: center;
+  color: black;
+}
+
+#trilogy-info h1 {
+  color: red;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  text-align: center;
+  margin: 0;
+  position: relative;
+  padding-top: 22px;
+  font-family: 'Bangers', cursive;
+}
+
+#trilogy-info h2 {
+  line-height: 0;
+  color: black;
+  font-size: 32px;
+  padding-bottom: 30px;
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Bangers', cursive;
+}
+
+#trilogy-info p {
+  color: black;
+  font-size: 20px;
+  font-weight: normal;
+  text-align: center;
+  line-height: 1.3;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin: 15px;
+  font-family: 'Bangers', cursive;
+  margin-bottom: 80px;
+}
+
+#trilogy-info h3 {
+  padding-top: 50px;
+  line-height: 0;
+  color: red;
+  font-size: 50px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-family: 'Bangers', cursive;
+  margin-bottom: 80px;
+}
+
+/* TESTER TRILOGY */
+#trilogy .body {
+  background-color: white;
+  width: 100%;
+  min-height: 100vh;
+  margin-bottom: 100px;
+}
+#trilogy .tester {
+  margin-bottom: -100px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  padding-top: 30px;
+}
+
+/* Four Columns that are displayed next to each other*/
+.column {
+  flex: 25%;
+  max-width: 33.3%;
+  padding: 0 4px;
+  position: relative;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.1s linear;
+  position: relative;
+}
+
+.column img:hover {
+  filter: grayscale(0) brightness(0.3);
+  cursor: pointer;
+}
+
+/* TESTING */
+.col1 {
+  background-image: url('./components/images/img1.jpg');
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: center;
+}
+
+.col2 {
+  background-image: url('./components/images/img2.jpg');
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: center;
+}
+
+.col3 {
+  background-image: url('./components/images/img3.jpg');
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: center;
+}
+
+.col4 {
+  background-image: url('./components/images/img4.jpg');
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: center;
+}
+
+.col5 {
+  background-image: url('./components/images/img5.jpg');
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: center;
+}
+.col6 {
+  background-image: url('./components/images/img6.jpg');
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: center;
+}
+/* HOVERING TEXT STYLING ON HOVER*/
+.hvrtxt {
+  background: #faf5f580;
+  opacity: 0;
+  transition-duration: 0.75s;
+  transition-timing-function: ease-in-out;
+  height: 375px;
+}
+
+h3,
+p {
+  text-align: center;
+}
+.hvrtxt:hover {
+  background: white;
+  opacity: 1;
+}
+
+/* MEDIA QUERY */
+@media (max-width: 650px) {
+  header .logo img {
+    width: 100%;
+    height: 100%;
+    float: none;
+  }
+
+  /* NAVBAR */
+  nav ul li a {
+    margin: 0 auto;
+    display: inline;
+    font-size: 42px;
+  }
+  /* SPEECH BUBBLE */
+  p.speech {
+    display: none;
+  }
+
+  /* THANOS IMAGE */
+  .thanos-section img {
+    margin-top: 55px;
+    width: 100%;
+    height: 100%;
+    float: none;
+    margin-bottom: 15px;
+  }
+  #narrcomic {
+    top: 22px;
+    margin-bottom: 50px;
+  }
+
+  #narrcomic h2 {
+    font-size: 2rem;
+  }
+
+  /* HERO GALLERY RESPONSIVE */
+  #hero-gallery {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+  }
+  #hero-gallery img {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* TRILOGY PAGE RESPONSIVE */
+  /* TRILOGY IMAGE */
+  #trilogy-img img {
+    width: 100%;
+    height: 100%;
+    float: none;
+  }
+  /* TRILOGY INFO */
+  #trilogy-info {
+    margin-top: 100px;
+    background-color: white;
+    width: 95%;
+    height: 400%;
+    float: none;
+  }
+
+  /* TESTER TRILOGY*/
+  /* .trilogy .body {
+    background-color: white;
+    width: 100%;
+    min-height: 100vh;
+    margin-bottom: 100px;
+  } */
+
+  #trilogy-info h2 {
+    font-size: 1.3rem;
+    color: red;
+  }
+  #trilogy-info p {
+    font-size: 1rem;
+  }
+  #trilogy .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  .column img {
+    filter: grayscale(0) brightness(1);
+  }
+}
