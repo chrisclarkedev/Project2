@@ -240,7 +240,7 @@ p.speech:after {
   margin-bottom: 80px;
 }
 
-/* TESTER TRILOGY */
+/* TESTER TRILOGY 2021 */
 #trilogy .body {
   background-color: white;
   width: 100%;
@@ -282,10 +282,13 @@ p.speech:after {
 
 /* TESTING */
 .col1 {
-  background-image: url('./components/images/img1.jpg');
+  background-image: url('./components/images/1.png');
   background-repeat: no-repeat;
   background-size: 50%;
   background-position: center;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
 }
 
 .col2 {
@@ -293,6 +296,9 @@ p.speech:after {
   background-repeat: no-repeat;
   background-size: 50%;
   background-position: center;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
 }
 
 .col3 {
@@ -300,6 +306,9 @@ p.speech:after {
   background-repeat: no-repeat;
   background-size: 50%;
   background-position: center;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
 }
 
 .col4 {
@@ -307,6 +316,9 @@ p.speech:after {
   background-repeat: no-repeat;
   background-size: 50%;
   background-position: center;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
 }
 
 .col5 {
@@ -314,12 +326,18 @@ p.speech:after {
   background-repeat: no-repeat;
   background-size: 50%;
   background-position: center;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
 }
 .col6 {
   background-image: url('./components/images/img6.jpg');
   background-repeat: no-repeat;
   background-size: 50%;
   background-position: center;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
 }
 /* HOVERING TEXT STYLING ON HOVER*/
 .hvrtxt {
@@ -399,18 +417,9 @@ p {
     margin-top: 100px;
     background-color: white;
     width: 95%;
-    height: 400%;
+    height: 460%;
     float: none;
   }
-
-  /* TESTER TRILOGY*/
-  /* .trilogy .body {
-    background-color: white;
-    width: 100%;
-    min-height: 100vh;
-    margin-bottom: 100px;
-  } */
-
   #trilogy-info h2 {
     font-size: 1.3rem;
     color: red;
