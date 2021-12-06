@@ -1,6 +1,6 @@
 # Project 2 - Infinity Gauntlet Saga
 
-![picture alt](https://i.ibb.co/ZB2XVk9/logo-hd.png)
+![picture alt](https://i.ibb.co/C2FMQ8t/logo-hd.png)
 
 Click [here](http://minor-grass.surge.sh/) for a live demo!
 
@@ -68,3 +68,10 @@ Easily navigated.
   "Thanos wants to impress Mistress Death by eliminating 1/2 of all life in the universe!"
 - Sound effect for the snap
 - Hero Search Bar 3rd page which will show (Name,Powerstats,Biography and Image)
+
+**Dec. 2021 Changes**
+-Design overhaul
+
+-Restructured components setup for easier media queries
+
+- Responsive design built for mobile phones.
