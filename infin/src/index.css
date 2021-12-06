@@ -20,6 +20,11 @@ code {
   margin: 0 auto;
 }
 
+.app .main {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 section {
   /* box-shadow: 0 0 5px #ccc; */
   padding: 15px 10px;

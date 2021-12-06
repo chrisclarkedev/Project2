@@ -1,12 +1,13 @@
 import React from 'react';
 // import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App2.css';
 import { Link, Route, Switch } from 'react-router-dom';
 import Home from './components/Home';
-import Search from './components/Search';
 import Trilogy from './components/Trilogy';
 import Hero from './components/svg/mask-solid.svg';
 import Logo from './components/images/logo_hd.png';
+import HeroSearch from './components/HeroSearch';
 
 function App() {
   return (
@@ -31,7 +32,7 @@ function App() {
           </li>
           <li>
             <div className="hero">
-              <Link to="/search">
+              <Link to="/herosearch">
                 <img src={Hero} alt="" width="40" />
               </Link>
             </div>
@@ -40,8 +41,8 @@ function App() {
       </nav>
       <main>
         <Route path="/" exact render={() => <Home />} />
-        <Route path="/search" render={() => <Search />} />
         <Route path="/trilogy" render={() => <Trilogy />} />
+        <Route path="/herosearch" render={() => <HeroSearch />} />
       </main>
     </div>
   );

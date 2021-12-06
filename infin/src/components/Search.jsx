@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Form from './Form';
 import axios from 'axios';
 
-class Search extends React.Component {
+export class Search extends Component {
   constructor() {
     super();
     this.state = {
@@ -49,9 +49,9 @@ class Search extends React.Component {
   render() {
     return (
       <>
-        <div>
-          <Form getHero={this.getHero} />
-          <br></br>
+        <Form getHero={this.getHero} />
+        <br></br>
+        <div className="whole_card">
           <div className="card result-card">
             <div className="upper">
               <img src={this.state.image} />

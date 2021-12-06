@@ -1,11 +1,12 @@
 import React from 'react';
+import Trilogyimg from './images/trilogy_section.jpg';
 import ComicSection from './ComicSection';
 
 export default function Trilogy() {
   return (
     <section id="trilogy">
       <div id="trilogy-img">
-        <img src={require('./images/trilogy_section.jpg')} />
+        <img src={Trilogyimg} alt="" />
       </div>
       <div id="trilogy-info">
         <h1>Cosmic Event</h1>

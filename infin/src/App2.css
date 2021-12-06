@@ -373,7 +373,8 @@ p {
 /* Form button and input */
 .form-search p {
   font-size: 5rem;
-  color: yellow;
+  color: rgb(185, 34, 178);
+  /* color: yellow; */
   text-shadow: 0px 0px 3px #000, -1px -1px #000, 1px 1px #000;
   text-align: center;
   right: 20%;
@@ -564,7 +565,7 @@ p {
     margin-top: 20px;
     background-color: white;
     width: 95%;
-    height: 460%;
+    height: 395%;
     float: none;
   }
   #trilogy-info h2 {
@@ -592,7 +593,7 @@ p {
   /* FORM BUTTON AND INPUT */
   .form-search p {
     font-size: 2rem;
-    color: yellow;
+    color: rgb(185, 34, 178);
     text-shadow: 0px 0px 3px #000, -1px -1px #000, 1px 1px #000;
     text-align: center;
     right: 20%;

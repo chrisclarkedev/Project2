@@ -7,20 +7,6 @@ export default function Home() {
     <>
       <p className="speech">COME AND GET ME!</p>
       <ThanosSection />
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
       <PicSection />
     </>
   );
