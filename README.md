@@ -69,9 +69,10 @@ Easily navigated.
 - Sound effect for the snap
 - Hero Search Bar 3rd page which will show (Name,Powerstats,Biography and Image)
 
-**Dec. 2021 Changes**
--Design overhaul
+**Dec 2021 Changes**
 
--Restructured components setup for easier media queries
-
-- Responsive design built for mobile phones.
+- Design Overhaul
+  -New components added
+  -New styling of navbar and search hero form
+  -Restructured Components (Setup for easy media queries)
+  -Responsive design built for mobile phone
