@@ -72,8 +72,7 @@ Easily navigated.
 **Dec 2021 Changes**
 
 - Design Overhaul
-
--New components added
--New styling of navbar and search hero form
--Restructured Components (Setup for easy media queries)
--Responsive design built for mobile phone
+- New components added
+- New styling of navbar and search hero form
+- Restructured Components (Setup for easy media queries)
+- Responsive design built for mobile phone
