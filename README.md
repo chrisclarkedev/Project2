@@ -69,7 +69,7 @@ Easily navigated.
 - Sound effect for the snap
 - Hero Search Bar 3rd page which will show (Name,Powerstats,Biography and Image)
 
-**Dec 2021 Changes**
+## Dec. 2021 Changes
 
 - Design Overhaul
 - New components added
