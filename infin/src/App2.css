@@ -205,7 +205,7 @@ p.speech:after {
 
 #trilogy-info h2 {
   line-height: 0;
-  color: black;
+  color: red;
   font-size: 32px;
   padding-bottom: 30px;
   text-align: center;
@@ -565,7 +565,7 @@ p {
     margin-top: 20px;
     background-color: white;
     width: 95%;
-    height: 395%;
+    height: 402%;
     float: none;
   }
   #trilogy-info h2 {
