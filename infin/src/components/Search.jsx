@@ -24,7 +24,7 @@ export class Search extends Component {
     //   )
     await axios
       .get(
-        `https://superheroapi.com/api.php/${process.env.REACT_APP_SECRET_KEY}/search/${charName}`
+        `https://www.superheroapi.com/api.php/${process.env.REACT_APP_SECRET_KEY}/search/${charName}`
       )
       .then((res) => {
         const name = res.data.results['0'].name;
