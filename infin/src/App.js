@@ -5,7 +5,8 @@ import './App2.css';
 import { Link, Route, Switch } from 'react-router-dom';
 import Home from './components/Home';
 import Trilogy from './components/Trilogy';
-import Hero from './components/svg/mask-solid.svg';
+import Hero2 from './components/images/g_icon1.png';
+// import Hero from './components/svg/mask-solid.svg';
 import Logo from './components/images/logo_hd.png';
 import HeroSearch from './components/HeroSearch';
 
@@ -33,7 +34,7 @@ function App() {
           <li>
             <div className="hero">
               <Link to="/herosearch">
-                <img src={Hero} alt="" width="40" />
+                <img src={Hero2} alt="" />
               </Link>
             </div>
           </li>
