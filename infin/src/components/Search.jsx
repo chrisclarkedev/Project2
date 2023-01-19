@@ -62,8 +62,8 @@ export class Search extends Component {
               Height: {this.state.height} &nbsp; &nbsp; &nbsp;Weight:{' '}
               {this.state.weight}
             </h4>
-            <h5>First Apperance: {this.state.appearance}</h5>
-            <h6>Group Affiliaion: {this.state.group}</h6>
+            <h5>First Appearance: {this.state.appearance}</h5>
+            <h6>Group Affiliation: {this.state.group}</h6>
           </div>
         </div>
         <br></br>
